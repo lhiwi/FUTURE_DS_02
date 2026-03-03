@@ -1,0 +1,17 @@
+# data (often large / or you may not want to upload raw)
+data/*.csv
+data/*.xlsx
+data/*.parquet
+
+# powerbi temp
+*.pbix.lock
+*.pbi*
+
+# python/jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# misc
+.DS_Store
+Thumbs.db
